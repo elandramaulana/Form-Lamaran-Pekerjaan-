@@ -1,0 +1,276 @@
+form {
+    width: 560px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 17, 255, 0.3);
+}
+
+
+/* form:hover{
+    background-color: #bbbdbe;
+} */
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #3B71CA;
+    /* ganti dengan warna yang diinginkan */
+    color: white;
+    /* warna teks pada tombol */
+    border: none;
+    /* hilangkan border */
+    border-radius: 4px;
+    /* lengkungkan sudut tombol */
+    cursor: pointer;
+    /* tampilkan cursor pointer saat mengarahkan ke tombol */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    color: #1639ffcb;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border: 1px solid #1639ffcb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#Agama {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+#pendidikan {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Radio Button */
+
+input[type=radio] {
+    margin-right: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+label span {
+    font-size: 16px;
+}
+
+input[type=radio]:checked+span {
+    color: #4CAF50;
+}
+
+
+/* Modal */
+
+#open-modal-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* Styling untuk background overlay */
+
+#modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+
+/* Styling untuk modal window */
+
+#modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 999;
+    max-width: 600px;
+    width: 100%;
+}
+
+
+/* Styling untuk judul form */
+
+#modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+/* Styling untuk label */
+
+#modal label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+
+/* Styling untuk input dan select */
+
+#modal input[type="text"],
+#modal input[type="email"],
+#modal select,
+#modal textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+
+/* Styling untuk input dengan validasi error */
+
+#modal input[type="text"].error,
+#modal input[type="email"].error,
+#modal select.error,
+#modal textarea.error {
+    border-color: #f44336;
+}
+
+
+/* Styling untuk pesan error */
+
+#modal .error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+/* Styling untuk radio button dan checkbox */
+
+#modal input[type="radio"],
+#modal input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+/* Styling untuk tombol Kirim */
+
+#modal button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Hover untuk tombol Kirim */
+
+#modal button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+
+/* Styling untuk tombol Tutup */
+
+#close-modal-btn {
+    background-color: #ccc;
+}

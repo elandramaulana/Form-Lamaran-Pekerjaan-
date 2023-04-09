@@ -1,0 +1,49 @@
+/* Style untuk modal besar */
+
+.modal-lg {
+    max-width: 600px;
+
+}
+
+/* .modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#0069d9;
+
+} */
+/* .modal-content {
+    margin: auto;
+    text-align: center;
+    background-color:#0069d9;
+} */
+
+/* Style untuk form pendaftaran */
+.modal-body form .form-group label {
+	font-weight: bold;
+}
+.modal-body form .form-group input,
+.modal-body form .form-group select {
+	margin-bottom: 10px;
+}
+
+/* Style untuk tombol kirim pendaftaran */
+.modal-footer .btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+.modal-footer .btn-primary:hover {
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+
+/* Style untuk tombol tutup */
+.modal-footer .btn-secondary {
+	background-color: #6c757d;
+	border-color: #6c757d;
+}
+.modal-footer .btn-secondary:hover {
+	background-color: #5a6268;
+	border-color: #545b62;
+}
+
